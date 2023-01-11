@@ -4,7 +4,7 @@ public class MentalTest_CP {
   public static String solution(String[] survey, int[] choices) {
     String answer = "";
     String mentals = "RTCFJMAN";
-    int[] menstali = new int[8];
+    int[] menstali = new int[8];{0,0,0,0,0,0,0,0}
 
     for (int i = 0; i < choices.length; i++) {
       if (choices[i] < 4) {
